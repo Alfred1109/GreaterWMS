@@ -1,0 +1,25 @@
+site_name: GreaterWMS ISO评估文档
+site_description: GreaterWMS项目ISO评估相关文档
+site_author: GreaterWMS团队
+
+theme:
+  name: readthedocs
+  language: zh
+
+nav:
+  - 首页: index.md
+  - 项目过程文档: 项目过程文档.md
+  - 系统需求文档: 系统需求文档.md
+  - 系统用例设计文档: 系统用例设计文档.md
+  - 数据库说明文档: 数据库说明文档.md
+  - 用户哈希值数据报告: 用户哈希值数据报告.md
+  - 密码安全说明: 密码安全说明.md
+  - 项目结项报告书: GreaterWMS项目结项报告书.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - codehilite
+  - admonition
+  - def_list
+
